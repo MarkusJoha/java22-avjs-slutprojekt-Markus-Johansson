@@ -1,0 +1,21 @@
+.product{
+    border: 2px solid blue;
+    background-color: teal;
+    width: 15rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.product img{
+    max-width: 100%;
+}
+button {
+    background-color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-radius: 15%;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 1em;
+}

@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    width: 60%;
+    border-radius: 50%;
+    background-color: indianred;
+    padding: 8px;
+}
+.link {
+    color: black;
+    font-size: 3.5em;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    padding-left: 3%;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+    .link {
+        font-size: 2em;
+    }
+}
+h4 {
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}

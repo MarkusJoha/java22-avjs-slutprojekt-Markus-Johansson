@@ -1,0 +1,23 @@
+.shopping-cart {
+    margin-top: 125px;
+    margin-left: 45%;
+    width: 200px;
+    background-color:palevioletred ;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10%;
+    justify-content: center;
+}
+p {
+    margin: 10px;
+}
+button {
+    margin: 12px;
+}
+@media only screen and (max-width: 1000px) {
+    .shopping-cart {
+    margin-left: 40%;
+    }
+}
